@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nagarro Automation ">
+
+   <listeners>
+        <listener class-name="com.qa.web.testReport.ExtentReportListener"/>
+    </listeners>
+    <test name="Web and API Test">
+        <classes>
+            <class name="com.qa.web.test.DroppableTest"></class>
+            <class name="com.qa.web.test.SelectableTest"></class>
+            <class name="com.qa.web.test.ControlGroupTest"></class>
+            <class name="com.qa.api.test.APITest"></class>
+        </classes>
+    </test>
+   </suite>
