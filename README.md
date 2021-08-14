@@ -1,5 +1,5 @@
-# UI_And_API_Automation
-It contains both UI automation and API automation.
+#Automation Assignment
+This repository is created to have tests of API and UI Automation assignment
 UI Automation is done using Selenium following Page Object Model.
 API Automation is done using Rest Assured.
 Build Tool - Maven
